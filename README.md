@@ -6,6 +6,8 @@
 GOOGLE_API_KEY='YOUR_API_KEY'
 ```
 - run ```npm start``` to run the application
+
+```Application RUNs http://locahost:3000 by default```
 - make a ```POST``` request with postman to ```/searchAddress``` with the following request json data:
 ```
 {
@@ -15,3 +17,5 @@ GOOGLE_API_KEY='YOUR_API_KEY'
     "country":"United State"
 }
 ```
+
+Test is in /test directory uses mocha and chai to make request and asset responses
